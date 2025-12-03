@@ -13,7 +13,7 @@ st.set_page_config(page_title="高颜值学术图表生成器", layout="wide")
 @st.cache_resource
 def load_font():
     # 优先查找项目目录下的 fonts 文件夹
-    font_path = "fonts/SimHei.ttf" 
+    font_path = "fonts/南西初夏宋-简繁.ttf" 
     if os.path.exists(font_path):
         font_prop = font_manager.FontProperties(fname=font_path)
         return font_prop
